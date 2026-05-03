@@ -31,12 +31,12 @@ python3 ssh_auditor.py --host 192.168.1.100 --username user --wordlist wordlist.
 ### HTTP Login (SecureBank)
 Cracked admin credentials by testing 4 passwords from wordlist — found `supersecret123` on attempt 4.
 
-![HTTP Brute Force](Project4 ss1.png)
+![HTTP Brute Force](http_brute_force_demo.png)
 
 ### SSH Login (Metasploitable2)
 Cracked msfadmin account on real target — password found on attempt 4 using default credentials.
 
-![SSH Brute Force](Project4 ss2.png)
+![SSH Brute Force](ssh_brute_force_demo.png)
 
 ## Tools Used
 - paramiko — SSH protocol implementation
